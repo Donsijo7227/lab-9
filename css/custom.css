@@ -1,0 +1,64 @@
+/* Build out your custom CSS here */
+/* Import Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Oswald:wght@700&family=Playfair+Display:wght@900&family=Roboto+Condensed:wght@700&display=swap');
+
+/* Ottawa Citizen Masthead */
+section:nth-child(1) header h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #003366;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-bottom: 4px solid #003366;
+}
+
+/* The Globe and Mail Masthead */
+section:nth-child(2) header h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 6px double #000000;
+}
+
+/* National Post Masthead */
+section:nth-child(3) header h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+/* The Star Masthead */
+section:nth-child(4) header h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #cc0001;
+}
+
+/* Special styling for the star.com em element */
+section:nth-child(4) header h2 em {
+    font-style: normal;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
